@@ -6,15 +6,33 @@ I write a newsletter read by 150,000 people and run every draft through this ski
 
 ## What it catches
 
-The full catalog is in [SKILL.md](SKILL.md). A sample:
+All 21 patterns, with the rules and fixes in [SKILL.md](SKILL.md):
 
-1. Binary contrasts: "It's not X. It's Y." State Y directly.
-2. Importance puffery: "marks a pivotal moment," "stands as a testament." State the fact and let the reader judge.
-3. Weasel attribution: "experts agree," "studies show." Name the source or cut the claim.
-4. Colon reveals: "The best part: it learns." Write a plain sentence.
-5. Fake-profound kickers: the mic-drop metaphor at the end. Delete it, end on the last concrete point.
-6. Triplet addiction: everything in threes for no reason.
-7. Em dash abuse, banned words (delve, seamless, tapestry, ever-evolving), throat-clearing openers, summary-recap endings, and more.
+| Pattern | Smells like |
+|---------|-------------|
+| Binary contrasts | "It's not X. It's Y." |
+| Throat-clearing openers | "Here's the thing..." |
+| Faux-insight setups | "What nobody tells you..." |
+| Colon reveals | "The best part: it learns." |
+| Superficial analysis | "...highlighting the team's commitment" |
+| Importance puffery | "marks a pivotal moment" |
+| Weasel attribution | "experts agree," "studies show" |
+| Fake-strong verbs | "serves as a centralized hub" |
+| Synonym cycling | the agent, then the assistant, then the tool |
+| Negative listing | "Not a X. Not a Y. A Z." |
+| Dramatic fragmentation | "That's it. That's the whole thing." |
+| Robotic rhythm | every sentence the same shape |
+| Triplet addiction | "clear, concise, and compelling" |
+| Audience flattery | "whether you're a founder or an exec" |
+| Both-sides hedging | "powerful, but not without drawbacks" |
+| Rhetorical setups | "What if I told you..." |
+| Dead metaphors | "unlock," "deep dive," "landscape" |
+| Fake-profound kickers | the mic-drop metaphor at the end |
+| Summary-recap endings | "In conclusion..." |
+| Formatting slop | emoji headings, decorative bold |
+| Em dash abuse | dashes as a default rhythm crutch |
+
+Plus a banned word list (delve, tapestry, seamless, pivotal, ever-evolving), hedging adverbs (really, genuinely, fundamentally), and filler phrases (it's worth noting, at the end of the day).
 
 It also enforces the boring fundamentals that make writing good: Front-load the point, active voice, one idea per sentence, concrete numbers over abstractions.
 
