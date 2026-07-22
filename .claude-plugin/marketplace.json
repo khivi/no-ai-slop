@@ -1,0 +1,15 @@
+{
+  "name": "no-ai-slop",
+  "description": "A skill that edits AI slop out of writing and detects slop patterns, while preserving the writer's voice.",
+  "owner": {
+    "name": "khivi",
+    "url": "https://github.com/khivi"
+  },
+  "plugins": [
+    {
+      "name": "no-ai-slop",
+      "source": "./",
+      "description": "Edit drafts into sharper, more human writing while preserving the writer's voice, or detect AI-slop patterns without rewriting."
+    }
+  ]
+}

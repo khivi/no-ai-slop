@@ -1,0 +1,9 @@
+{
+  "name": "no-ai-slop",
+  "version": "1.0.0",
+  "description": "Edit drafts into sharper, more human writing while preserving the writer's voice, or detect AI-slop patterns without rewriting.",
+  "author": {
+    "name": "khivi",
+    "url": "https://github.com/khivi"
+  }
+}

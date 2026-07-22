@@ -24,9 +24,21 @@ It also enforces the fundamentals that make writing good: Lead with the point wh
 
 ## Install
 
-Paste this into Claude Code, Codex, or your favorite AI harness:
+**Claude Code plugin (recommended).** Installs the skill and keeps it updatable:
 
-"Install this skill globally: [https://github.com/petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)"
+```
+/plugin marketplace add khivi/no-ai-slop
+/plugin install no-ai-slop@no-ai-slop
+```
+
+**Manual clone.** Copy the skill into your personal skills directory:
+
+```
+git clone https://github.com/khivi/no-ai-slop /tmp/no-ai-slop
+cp -r /tmp/no-ai-slop/skills/no-ai-slop ~/.claude/skills/no-ai-slop
+```
+
+Either way, `/no-ai-slop` is then available in Claude Code.
 
 ## Use
 
@@ -52,12 +64,12 @@ You get every pattern it found each with the quoted line.
 
 ## Files
 
-1. `SKILL.md`: The editing rules and workflow.
-2. `eval.md`: Pass/fail checks the skill runs on its own edits.
+1. `skills/no-ai-slop/SKILL.md`: The editing rules and workflow.
+2. `skills/no-ai-slop/eval.md`: Pass/fail checks the skill runs on its own edits.
 
-## Who made this
+## Credits
 
-This is one skill from my personal AI operating system. The full library, including my courses and workflows, lives at [Behind the Craft](https://behindthecraft.com).
+Forked from [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop), one skill from Peter Yang's personal AI operating system; the full library lives at [Behind the Craft](https://behindthecraft.com). This fork repackages it as an installable Claude Code plugin.
 
 ## License
 
