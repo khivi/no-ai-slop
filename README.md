@@ -1,12 +1,10 @@
 # No AI slop
 
-An agent skill that edits drafts into sharper, more human writing. It keeps your point, cuts the patterns that make writing smell like AI, and protects the specific facts that make a draft worth reading. It can also detect those patterns in any piece without rewriting it.
-
-I write a newsletter read by 150,000 people and run every draft through this skill before it ships. It exists because AI first drafts all sound the same: Hedged, padded, and structured like a press release. This skill is the editor that fixes that.
+This skill removes 20+ patterns of AI slop from your writing and it can also help you detect slop. 
 
 ## What it catches
 
-All 21 patterns, with the rules and fixes in [SKILL.md](SKILL.md):
+The patterns it detects includes:
 
 | Pattern | Smells like |
 |---------|-------------|
@@ -21,26 +19,8 @@ All 21 patterns, with the rules and fixes in [SKILL.md](SKILL.md):
 | Synonym cycling | the agent, then the assistant, then the tool |
 | Negative listing | "Not a X. Not a Y. A Z." |
 | Dramatic fragmentation | "That's it. That's the whole thing." |
-| Robotic rhythm | every sentence the same shape |
-| Triplet addiction | "clear, concise, and compelling" |
-| Audience flattery | "whether you're a founder or an exec" |
-| Both-sides hedging | "powerful, but not without drawbacks" |
-| Rhetorical setups | "What if I told you..." |
-| Dead metaphors | "unlock," "deep dive," "landscape" |
-| Fake-profound kickers | the mic-drop metaphor at the end |
-| Summary-recap endings | "In conclusion..." |
-| Formatting slop | emoji headings, decorative bold |
-| Em dash abuse | dashes as a default rhythm crutch |
-
-Plus a banned word list (delve, tapestry, seamless, pivotal, ever-evolving), hedging adverbs (really, genuinely, fundamentally), and filler phrases (it's worth noting, at the end of the day).
 
 It also enforces the boring fundamentals that make writing good: Front-load the point, active voice, one idea per sentence, concrete numbers over abstractions.
-
-## What it protects
-
-1. Your meaning. It never invents claims, stats, or opinions. If something is unclear, it asks.
-2. Your specifics. "Cut review time from 30 minutes to 8" never gets smoothed into "significantly improves productivity."
-3. Your edge. Strong opinions get sharper. The skill never sands them down to sound balanced.
 
 ## Install
 
