@@ -1,6 +1,6 @@
 # No AI slop
 
-This skill removes 17 patterns of AI slop from your writing and it can also help you detect slop.
+This skill removes 20+ patterns of AI slop from your writing and it can also help you detect slop as well.
 
 ## What it catches
 
