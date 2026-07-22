@@ -24,9 +24,14 @@ It also enforces the fundamentals that make writing good: Lead with the point wh
 
 ## Install
 
-Paste this into Claude Code, Codex, or your favorite AI harness:
+Upload it as a skill on Claude.ai (Settings → Capabilities → Skills):
 
-"Install this skill globally: [https://github.com/petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)"
+```
+git clone https://github.com/khivi/no-ai-slop
+zip -r no-ai-slop.zip no-ai-slop -x '*.git*'
+```
+
+Upload `no-ai-slop.zip`, then invoke it with `/no-ai-slop` in any chat.
 
 ## Use
 
